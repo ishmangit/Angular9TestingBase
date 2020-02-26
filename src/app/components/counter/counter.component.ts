@@ -3,9 +3,11 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'counter',
   template: `
-    <button (click)="decrement()">-</button>
-    <span data-testid="count">Current Count: {{ counter }}</span>
-    <button (click)="increment()">+</button>
+    <div class="counter">
+      <button (click)="decrement()">-</button>
+      <span data-testid="count">Current Count: {{ counter }}</span>
+      <button (click)="increment()">+</button>
+    </div>
   `,
 })
 export class CounterComponent {
