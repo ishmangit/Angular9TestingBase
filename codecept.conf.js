@@ -13,7 +13,7 @@ exports.config = {
       driver: 'hosted',
       browser: 'chrome',
       rootElement: 'body',
-      angular: false
+      angular: true
     }
   },
   include: {

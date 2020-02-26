@@ -11,7 +11,7 @@ describe('Counter', () => {
     expect(getByText('Current Count: 5'));
   });
 
-  test('should increment the counter on click', async () => {
+  test('should increment the counter on + button click', async () => {
     const { getByText, click } = await render(CounterComponent, {
       componentProperties: { counter: 5 },
     });
@@ -21,7 +21,7 @@ describe('Counter', () => {
     expect(getByText('Current Count: 6'));
   });
 
-  test('should decrement the counter on click', async () => {
+  test('should decrement the counter on - button click', async () => {
     const { getByText, click } = await render(CounterComponent, {
       componentProperties: { counter: 5 },
     });
