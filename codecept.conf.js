@@ -27,7 +27,7 @@ exports.config = {
       enabled: true
     },
     screenshotOnFail: {
-      enabled: true
+      enabled: false
     },
     wdio: {
       enabled: true,

@@ -1,6 +1,6 @@
 Feature('Counter');
 
-Scenario('Click on button', (I) => {
+Scenario('Counter increment button works fine', (I) => {
     I.amOnPage('/');
     I.seeElement('.counter');
     I.say('Now 3 clicks to increment button');
